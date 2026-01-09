@@ -1,0 +1,56 @@
+/* utilites */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+.btn-primary {
+    width: 164px;
+    height: 44px;
+    background: #30B868;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #30B868;
+    border: 1px solid #30B868; 
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    padding: 16px 0;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+nav ul a:hover {
+    color: #30B868;
+}
