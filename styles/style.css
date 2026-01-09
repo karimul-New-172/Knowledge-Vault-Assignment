@@ -28,8 +28,8 @@
 .btn-secondary {
     padding: 14px 45px;
     background: transparent;
-    color: #30B868;
-    border: 1px solid #30B868;
+    color: #fff;
+    border: 1px solid #fff;
     border-radius: 5px;
 }
 
@@ -123,7 +123,7 @@ nav ul a:hover {
 
 .hero-section h1 {
     color: #fff;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -190,7 +190,8 @@ nav ul a:hover {
 .card p,
 .ready-to-think h2,
 .ready-to-think p,
-.ready-to-think button{
+.ready-to-think button,
+footer p{
     margin-bottom: 16px;
 }
 
@@ -236,7 +237,53 @@ nav ul a:hover {
 /* ready to think start */
 .ready-to-think {
     background-color: rgba(247, 246, 242, 1);
-    padding: 40px 80px;
+    padding: 40px 0;
     border-radius: 12px;
     text-align: center;
+}
+
+/* footer styles start */
+footer {
+    background-color: rgba(0, 25, 49, 1);
+    margin-top: 120px;
+    padding: 120px 0 30px;
+}
+
+footer .social-link-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(8, 62, 170);
+    padding-bottom: 84px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+footer ul a {
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+footer ul a:hover {
+    background-color: #30B868;
+    color: #fff;
+}
+
+footer .copyrights {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
 }
