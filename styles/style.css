@@ -187,7 +187,10 @@ nav ul a:hover {
     text-align: center;
 }
 .card h3, 
-.card p {
+.card p,
+.ready-to-think h2,
+.ready-to-think p,
+.ready-to-think button{
     margin-bottom: 16px;
 }
 
@@ -228,4 +231,12 @@ nav ul a:hover {
 .text ul li img {
     width: 20px;
     height: 20px;
+}
+
+/* ready to think start */
+.ready-to-think {
+    background-color: rgba(247, 246, 242, 1);
+    padding: 40px 80px;
+    border-radius: 12px;
+    text-align: center;
 }
