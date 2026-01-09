@@ -190,3 +190,42 @@ nav ul a:hover {
 .card p {
     margin-bottom: 16px;
 }
+
+/* second brain section start */
+.second-brain .container {
+    padding: 100px 0;
+    display: flex;
+    gap: 60px;
+
+    align-items: center;
+}
+.second-brain img {
+    width: 600px;
+    height: 600px;
+}
+
+.text .the-solution-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.text .Personal-Knowledge-text {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.5em;
+}
+.text ul {
+    list-style: none;
+}
+
+.text ul li {
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: flex;
+    gap: 8px;
+}
+.text ul li img {
+    width: 20px;
+    height: 20px;
+}
