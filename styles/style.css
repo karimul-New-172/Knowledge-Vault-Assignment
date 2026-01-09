@@ -12,6 +12,11 @@
 }
 
 /* shared style */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .btn-primary {
     padding: 14px 45px;
     background: #30B868;
@@ -43,6 +48,18 @@
 
 .color-primary {
     color: #30B868;
+}
+
+.heading-primary {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #001931;
+}
+
+.text-primary {
+    color: #627382;
+    line-height: 20px;
 }
 
 /* main styles */
@@ -122,4 +139,54 @@ nav ul a:hover {
     justify-self: center;
     align-items: center;
     gap: 20px;
+}
+
+/* notes section start */
+.note-section {
+    background-color: #FBFBFB;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.note-section h2, 
+.note-section p {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 322px;
+    background: #fff;
+    padding: 40px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card .img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card .image-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card h3, 
+.card p {
+    margin-bottom: 16px;
 }
